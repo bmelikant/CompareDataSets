@@ -48,7 +48,7 @@ public class CompareSetsInterface extends javax.swing.JFrame {
         jTextArea2.setRows(5);
         jScrollPane2.setViewportView(jTextArea2);
 
-        jCheckBox1.setText("Ignore Duplicates in Source");
+        jCheckBox1.setText("Ignore Duplicate Rows");
         jCheckBox1.setName("cb_ignoreDuplicates"); // NOI18N
 
         jCheckBox2.setText("Remove Whitespace");
@@ -104,6 +104,8 @@ public class CompareSetsInterface extends javax.swing.JFrame {
                     .addComponent(jButton1))
                 .addContainerGap(15, Short.MAX_VALUE))
         );
+
+        jCheckBox1.getAccessibleContext().setAccessibleName("Ignore Duplicate Rows");
 
         pack();
     }// </editor-fold>//GEN-END:initComponents

@@ -101,9 +101,12 @@
     </Container>
     <Component class="javax.swing.JCheckBox" name="jCheckBox1">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Ignore Duplicates in Source"/>
+        <Property name="text" type="java.lang.String" value="Ignore Duplicate Rows"/>
         <Property name="name" type="java.lang.String" value="cb_ignoreDuplicates" noResource="true"/>
       </Properties>
+      <AccessibilityProperties>
+        <Property name="AccessibleContext.accessibleName" type="java.lang.String" value="Ignore Duplicate Rows"/>
+      </AccessibilityProperties>
     </Component>
     <Component class="javax.swing.JCheckBox" name="jCheckBox2">
       <Properties>
